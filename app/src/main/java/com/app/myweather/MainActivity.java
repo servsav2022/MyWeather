@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
     }
     class PogodaThread extends AsyncTask<String, Void, String> {
      // Метод выполняющий запрос в фоне, в версиях выше 4 андроида, запросы в главном потоке выполнять
-     // нельзя, поэтому все что вам нужно выполнять - выносите в отдельный тред
+     // нельзя, поэтому все что нужно выполнять - выносим в отдельный тред
         @Override
         protected String doInBackground(String... arg) {
             String pogoda;
@@ -53,13 +53,15 @@ public class MainActivity extends AppCompatActivity {
             String mailPogoda = null;
 
             try {
+              //парсинг с яндекса
               Document docYa = Jsoup.connect("https://yandex.ru/pogoda/yekaterinburg").get();
               Elements tempYa = docYa.getElementsByClass("temp__value_with-unit");
               Elements windYa = docYa.getElementsByClass("a11y-hidden");
               Element elTempYa = tempYa.get(1);
               Element elWindYa = windYa.get(1);
               yaPogoda = String.valueOf(elTempYa.childNodes().get(0)).trim() + " " + elWindYa.childNodes().get(0) ;
-              //
+
+              //парсинг с гизметео
               Document docGis = Jsoup.connect("https://www.gismeteo.ru/weather-yekaterinburg-4517/now/").get();
               Elements tempGis = docGis.getElementsByClass("unit unit_temperature_c");
               Elements signTempGis = docGis.getElementsByClass("sign");
@@ -74,9 +76,8 @@ public class MainActivity extends AppCompatActivity {
                       String.valueOf(elWindGis.childNodes().get(0)).trim() + " м/с " +
                       elWindGis2.childNodes().get(1).childNode(0).toString().trim();
 
-                //
-
-             Document docMail = Jsoup.connect("https://pogoda.mail.ru/prognoz/ekaterinburg/").get();
+              //  парсинг с Мейл.ру
+              Document docMail = Jsoup.connect("https://pogoda.mail.ru/prognoz/ekaterinburg/").get();
               Elements tempMail = docMail.getElementsByClass("information__content__temperature");
               Elements windMail = docMail.getElementsByClass("information__content__additional__item");
               Element elTempMail = tempMail.get(0);
@@ -92,13 +93,15 @@ public class MainActivity extends AppCompatActivity {
 
             return pogoda;
         }
-
         @Override
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
+            //разбиваем резултат на массив слов
             String[] words = result.split(" ");
+            //готовим текстовые предложения и отправляем в форму главного окна
          tempYa.setText("На яндексе сейчас: " + words[0] + " " + words[1] + " " +
                     words[2] + " " + words[3] + " " + words[4] + " " + words[5] + " " + words[6]);
+
          tempGis.setText("На Gismeteo сейчас: "  + words[7] + " " + words[8] + " " + words[9] + " "
                    + words[10] + " " + words[11] +" "+ words[12]);
 
