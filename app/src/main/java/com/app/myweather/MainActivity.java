@@ -1,6 +1,5 @@
 package com.app.myweather;
 
-
 import androidx.appcompat.app.AppCompatActivity;
 
 
@@ -16,15 +15,11 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-
 public class MainActivity extends AppCompatActivity {
-
     TextView tempYa;
     TextView tempGis;
     TextView tempMail;
-
     private Button upd_btn;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +35,6 @@ public class MainActivity extends AppCompatActivity {
                 new PogodaThread().execute();
             }
         });
-
     }
     class PogodaThread extends AsyncTask<String, Void, String> {
      // Метод выполняющий запрос в фоне, в версиях выше 4 андроида, запросы в главном потоке выполнять
@@ -81,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
               Elements tempMail = docMail.getElementsByClass("information__content__temperature");
               Elements windMail = docMail.getElementsByClass("information__content__additional__item");
               Element elTempMail = tempMail.get(0);
-             Element elWindMail = windMail.get(4);
+             Element elWindMail = windMail.get(5);
               mailPogoda = elTempMail.childNodes().get(2).toString().trim() + " "
               + elWindMail.childNodes().get(1).toString().trim()+" ";
 
@@ -105,9 +99,8 @@ public class MainActivity extends AppCompatActivity {
          tempGis.setText("На Gismeteo сейчас: "  + words[7] + " " + words[8] + " " + words[9] + " "
                    + words[10] + " " + words[11] +" "+ words[12]);
 
-         tempMail.setText("На mail.ru сейчас: " + words[13] +" "+ words[15].substring(7)+
-                 " "+ words[16]+ " "+ words[17]+ " "+ words[18]+ " ");
+         tempMail.setText("На mail.ru сейчас: " + words[13] + " " + words[15].substring(7)
+                 + " " + words[16]+ " " + words[17]+ " " + words[18]+ " ");
         }
     }
-
 }
