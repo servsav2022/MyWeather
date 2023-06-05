@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/mycolor1" /> <!-- Замените цвет фона на желаемый -->
+    <corners android:radius="30dp" /> <!-- Задайте радиус закругления краев -->
+</shape>
