@@ -3,10 +3,28 @@
     <string name="button">обновить</string>
 
     <string-array name="ya_connections">
-    <item>"https://yandex.ru/pogoda/moscow/"</item>
-    <item>"https://yandex.ru/pogoda/saint-petersburg"</item>
-    <item>"https://yandex.ru/pogoda/novosibirsk/"</item>
-    <item>"https://yandex.ru/pogoda/yekaterinburg/"</item>
+        <item>"https://yandex.ru/pogoda/moscow/"</item>
+        <item>"https://yandex.ru/pogoda/saint-petersburg"</item>
+        <item>"https://yandex.ru/pogoda/novosibirsk/"</item>
+        <item>"https://yandex.ru/pogoda/yekaterinburg/"</item>
+        <item>"https://yandex.ru/pogoda/kazan/"</item>
+        <item>"https://yandex.ru/pogoda/nizhny-novgorod"</item>
+        <item>"https://yandex.ru/pogoda/chelyabinsk"</item>
+        <item>"https://yandex.ru/pogoda/krasnoyarsk"</item>
+        <item>"https://yandex.ru/pogoda/samara"</item>
+        <item>"https://yandex.ru/pogoda/ufa"</item>
+        <item>"https://yandex.ru/pogoda/rostov-na-donu"</item>
+        <item>"https://yandex.ru/pogoda/omsk"</item>
+        <item>"https://yandex.ru/pogoda/krasnodar"</item>
+        <item>"https://yandex.ru/pogoda/voronezh"</item>
+        <item>"https://yandex.ru/pogoda/perm"</item>
+        <item>"https://yandex.ru/pogoda/volgograd"</item>
+        <item>"https://yandex.ru/pogoda/saratov"</item>
+        <item>"https://yandex.ru/pogoda/tyumen"</item>
+        <item>"https://yandex.ru/pogoda/togliatti"</item>
+        <item>"https://yandex.ru/pogoda/barnaul"</item>
+        <item>"https://yandex.ru/pogoda/izhevsk"</item>
+        <item>"https://yandex.ru/pogoda/makhachkala"</item>
     </string-array>
 
     <string-array name="gis_connections">
@@ -14,6 +32,24 @@
         <item>"https://www.gismeteo.ru/weather-sankt-peterburg-4079/now/"</item>
         <item>"https://www.gismeteo.ru/weather-novosibirsk-4690/now/"</item>
         <item>"https://www.gismeteo.ru/weather-yekaterinburg-4517/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-kazan-4364/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-nizhny-novgorod-4355/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-chelyabinsk-4565/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-krasnoyarsk-4674/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-samara-4618/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-ufa-4588/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-rostov-na-donu-5110/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-omsk-4578/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-krasnodar-5136/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-voronezh-5026/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-perm-4476/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-volgograd-5089/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-saratov-5032/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-tyumen-4501/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-tolyatti-4429/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-barnaul-4720/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-izhevsk-4508/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-makhachkala-5270/now/"</item>
     </string-array>
 
     <string-array name="mail_connections">
@@ -21,6 +57,24 @@
         <item>"https://pogoda.mail.ru/prognoz/sankt_peterburg/"</item>
         <item>"https://pogoda.mail.ru/prognoz/novosibirsk/"</item>
         <item>"https://pogoda.mail.ru/prognoz/ekaterinburg/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/kazan/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/nizhniy_novgorod/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/chelyabinsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/krasnoyarsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/samara/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/ufa/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/rostov-na-donu/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/omsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/krasnodar/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/voronezh/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/perm/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/volgograd/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/saratov/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/tyumen/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/toliatti/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/barnaul/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/izhevsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/makhachkala/"</item>
     </string-array>
 
     <string-array name="city_names">
@@ -339,6 +393,7 @@
         <item>Кириши</item>
         <item>Снежинск</item>
         <item>Жигулёвск</item>
+        <item>Арамиль</item>
     </string-array>
 
 </resources>
