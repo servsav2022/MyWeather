@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Погода servsav</string>
+    <string name="app_name" translatable="false">Три Погоды</string>
     <string name="button">обновить</string>
 
     <string-array name="ya_connections">
@@ -25,6 +25,28 @@
         <item>"https://yandex.ru/pogoda/barnaul"</item>
         <item>"https://yandex.ru/pogoda/izhevsk"</item>
         <item>"https://yandex.ru/pogoda/makhachkala"</item>
+        <item>"https://yandex.ru/pogoda/khabarovsk"</item>
+        <item>"https://yandex.ru/pogoda/ulyanovsk"</item>
+        <item>"https://yandex.ru/pogoda/irkutsk"</item>
+        <item>"https://yandex.ru/pogoda/vladivostok"</item>
+        <item>"https://yandex.ru/pogoda/yaroslavl"</item>
+        <item>"https://yandex.ru/pogoda/kemerovo"</item>
+        <item>"https://yandex.ru/pogoda/tomsk"</item>
+        <item>"https://yandex.ru/pogoda/naberezhnie-chelny"</item>
+        <item>"https://yandex.ru/pogoda/sevastopol"</item>
+        <item>"https://yandex.ru/pogoda/stavropol"</item>
+        <item>"https://yandex.ru/pogoda/orenburg"</item>
+        <item>"https://yandex.ru/pogoda/novokuznetsk"</item>
+        <item>"https://yandex.ru/pogoda/ryazan"</item>
+        <item>"https://yandex.ru/pogoda/balashiha"</item>
+        <item>"https://yandex.ru/pogoda/penza"</item>
+        <item>"https://yandex.ru/pogoda/cheboksary"</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+
     </string-array>
 
     <string-array name="gis_connections">
@@ -50,6 +72,27 @@
         <item>"https://www.gismeteo.ru/weather-barnaul-4720/now/"</item>
         <item>"https://www.gismeteo.ru/weather-izhevsk-4508/now/"</item>
         <item>"https://www.gismeteo.ru/weather-makhachkala-5270/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-khabarovsk-4862/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-ulyanovsk-4407/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-irkutsk-4787/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-vladivostok-4877/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-yaroslavl-4313/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-kemerovo-4693/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-tomsk-4652/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-naberezhnye-chelny-4534/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-sevastopol-5003/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-stavropol-5141/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-orenburg-5159/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-novokuznetsk-4721/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-ryazan-4394/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-balashikha-11447/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-penza-4445/now/"</item>
+        <item>"https://www.gismeteo.ru/weather-cheboksary-4361/now/"</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
     </string-array>
 
     <string-array name="mail_connections">
@@ -75,6 +118,27 @@
         <item>"https://pogoda.mail.ru/prognoz/barnaul/"</item>
         <item>"https://pogoda.mail.ru/prognoz/izhevsk/"</item>
         <item>"https://pogoda.mail.ru/prognoz/makhachkala/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/khabarovsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/ulianovsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/irkutsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/vladivostok/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/yaroslavl/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/kemerovo/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/tomsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/naberezhnye_chelny/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/sevastopol/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/stavropol/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/orenburg/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/novokuznetsk/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/ryazan/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/balashikha/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/penza/"</item>
+        <item>"https://pogoda.mail.ru/prognoz/cheboksary/"</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
+        <item>""</item>
     </string-array>
 
     <string-array name="city_names">

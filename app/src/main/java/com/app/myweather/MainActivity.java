@@ -157,6 +157,9 @@ public class MainActivity extends AppCompatActivity {
               if(city.getText().toString().trim().toLowerCase(Locale.ROOT).equals("санкт-петербург")){
                     elWindMail = windMail.get(6);
               }
+              if(city.getText().toString().trim().toLowerCase(Locale.ROOT).equals("севастополь")){
+                    elWindMail = windMail.get(6);
+              }
               mailPogoda = elTempMail.childNodes().get(2).toString().trim() + " "
               + elWindMail.childNodes().get(1).toString().trim()+" ";
             } catch (IOException e) {
